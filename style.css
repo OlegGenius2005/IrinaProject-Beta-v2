@@ -1,0 +1,896 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+h1,h2,h3,h4,a,p,ul,ol,li{
+    font-family: 'Playfair Display', serif;
+
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  /* line-height: 1.5; */
+  position: relative;
+  
+  opacity: 1;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+/* ul[class],
+ol[class] {
+  list-style: none;
+} */
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+html,body{
+    width: 100%;
+}
+
+
+
+
+/*drfhyrthfgj*/
+
+header{
+    background-color: #bbad79;
+    position: fixed;
+    width: 100%;
+    padding: 0.5%;
+    z-index: 50;
+
+   
+
+    
+}
+.logo img{
+    width: 50px;
+}
+#view-1{
+    width: 100%;
+    margin-top: 5vh;
+
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0 30px 30px 10px rgb(10, 10, 10) ; 
+    
+    background-color: rgb(39, 39, 39);
+    padding:  0 0 0 0;
+    
+    border-bottom:solid 5px #bcbcbc ;
+    
+  
+    
+}
+
+.block{
+    
+    
+    
+  
+    transition: all 0.5s;
+    
+ 
+}
+
+#bl1:hover{
+    box-shadow: 5px 0px rgba(171, 171, 171, 0.313);
+
+  
+   
+
+}
+
+#photo-1{
+    width: 25%;
+  
+    
+    
+
+}
+
+
+#bl1{
+    
+    max-width: 85%;
+    box-shadow: 30px 0px rgb(39,39,39);
+    background-color: rgb(39,39,39);
+    
+    
+    padding:3%;
+
+    text-align: center ;
+    color:#e1e1e1;
+    
+    
+
+
+
+}
+#mntext{
+    font-size: 70px;
+   
+    
+    color: #b0a065;
+    margin-top: 1%;
+    font-family: 'Playfair Display', serif;
+    
+    
+ 
+    
+}
+
+#sctext{
+    font-size:70px;
+    float:left;
+    margin-top:7%;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    width: 90%;
+    margin-left: 15%;
+    
+    
+    
+    
+}
+#cons{
+    color: #F0DD9B;
+}
+
+.but{
+    margin-top: -2%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    
+
+}
+.scrollup {
+    border-radius:25px ;
+    transition: all 0.2s;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 500;
+    z-index: 4;
+
+
+
+
+    color: rgb(10, 10, 10); /* цвет текста */
+    background-color:  #F0DD9B; /* цвет заднего фона */
+    text-decoration: none;
+    padding: 1% 3%; /* отступы до содержимого блока */
+    
+    cursor: pointer; /* форма курсора */
+     /* не отображать элемент */
+    text-align: center; /*выравнивание содержимого элемента по центру */
+  }
+.scrollup:hover {
+   background-color: #000; /* цвет заднего фона при наведении */
+   color: rgb(255, 255, 255);
+   border-radius:15px ;
+ }
+ .punkts_all{
+    min-height: 20vh;
+    font-size: 30px;
+   
+ }
+ 
+ .punkts{
+    background-color: #F0DD9B;
+    max-width: 70%;
+    margin-top: 2%;
+    padding: 2% 1% 2% 2%;
+    margin-right:0px ;
+    margin-left: auto;
+    
+   
+    
+    
+    
+    color: rgb(29, 29, 29);
+    box-shadow: 50px 0px rgb(39, 39, 39);
+    transition: all 0.5s;
+   
+    
+    border-top-left-radius: 25px ;
+    border-bottom-left-radius: 25px ;
+  
+    
+}
+.punkts h1{
+    font-family: 'Playfair Display', serif;
+    
+}
+    
+
+.punkts:hover{
+    transform: translateX(-50px);
+    
+}
+#punkts-2{
+    box-shadow: -50px 0px #F0DD9B;
+    margin-top: 4%;
+    background-color: rgb(39, 39, 39);
+    color: #BCBCBC;
+    padding: 2% 2% 2% 1%;
+    margin-left: 0;
+    margin-right: auto;
+    
+
+   
+    border-top-right-radius: 25px ;
+    border-bottom-right-radius: 25px ;
+    border-top-left-radius: 0 ;
+    border-bottom-left-radius: 0 ;
+
+}
+#punkts-2:hover{
+    transform: translateX(50px);
+    
+}
+
+
+
+#about_div{
+    width: 100%;
+
+    padding:5% 0 10% 0;
+    background: url('bg-2.jpg') 50% 0/cover no-repeat;
+    
+}
+#exact-punkts{
+    
+    padding:2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    
+    background-color: rgb(39, 39, 39);
+    max-width: 60%;
+    margin-top: 2%;
+    border-top-right-radius: 25px ;
+    border-bottom-right-radius: 25px ;
+    
+    color: #BCBCBC;
+    box-shadow: -50px 0px #F0DD9B;
+    transition: all 0.5s;
+    font-family: 'Playfair Display', serif;
+    
+
+
+}
+
+
+
+
+#exact-punkts:hover{
+    transform: translateX(50px);
+}
+#exact-punkts li {
+    
+    display: inline-block; /* Отображать как строчный элемент */
+     /* Отступ слева */
+     /* Поля вокруг текста */
+    width: 50%;
+    
+
+
+}
+
+#exit{
+    background-color: #f0de9b89;
+    width: 100%;
+    height:5vh;
+    margin-bottom: -10vh;
+    
+  
+   
+}
+#uslugi{
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+
+    border-bottom:solid 5px #bcbcbc ;
+   
+    padding: 0 2% 2% 2%;
+    
+}
+#text{
+    text-align: center;
+    margin-bottom: -3%;
+
+   
+    background-color:   rgb(39, 39, 39); ;
+    border-radius: 25%;
+    
+ 
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #BCBCBC;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 3em;
+}
+#sq{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 0 2% 0;
+    
+    
+
+}
+.all-sq{
+    
+    
+    flex-basis: 30%;
+    border:solid 5px #BCBCBC   ;
+    flex-shrink: 1;
+    border-radius: 25px;
+    justify-content: center;
+    background-color: #F0DD9B;
+    margin-top: 10%;
+    transition: all 0.2s;
+    box-shadow: 0 0 30px 1px #F0DD9B;
+    
+    
+}
+.all-sq:hover{
+    box-shadow: 0 0 40px 1px #F0DD9B;
+    
+}
+.all-sq_text{
+    font-size: 15px;
+    min-height: 12vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: rgb(39,39,39);
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    padding: 2% 4% 0% 4%;
+
+    
+}
+
+.sq_discrip{
+    background-color: rgb(39,39,39);
+    text-align: left;
+    color:#ffffff;
+    padding: 2% 5%;
+    font-size: 20px;
+    min-height: 85vh;
+}
+.sq_discrip_ul{
+    list-style:none; 
+
+    
+    font-weight: 500;
+    
+}
+.sq_discrip_ul li{
+    margin: 4% 0%;
+    padding: 0 0 5px 40px;
+    background:  url(mark.png) no-repeat left top / 30px 30px;
+     border-bottom: solid 2px #BCBCBC;  
+    
+}
+
+.sq_bottom_div{
+    text-align: center;
+    width: 100%;
+    border-top:solid 5px #BCBCBC   ; 
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 6% 4%;
+    
+}
+.uslugi_alert{
+    width: 100%;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    padding: 3% 0;
+}
+.buy_icons{
+    border-top:solid 5px #BCBCBC   ; 
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 2% 0% 2%;
+}
+.icons_pics{
+    width: 30%;
+    justify-content:  center;
+    display: flex;
+    
+}
+.icons_pics a{
+    background-color: #F0DD9B;
+    border-radius: 25px;
+    padding:  3%;
+    transition: all 0.2s;
+}
+.icons_pics a:hover{
+    background-color: #a5996e;
+    padding: 3% 4% 0% 4%;
+}
+.icons_pics img{
+    
+}
+.buy_div{
+    text-align: center;
+    width: 100%;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2% 3% 2%;
+
+}
+
+
+.buy_div a {
+    width: 30%;
+    color: #BCBCBC;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+.buy{
+    border-radius:20px ;
+    transition: all 0.2s;
+    font-family: 'Playfair Display', serif;
+    font-style:italic;
+    font-weight: 500;
+    color: rgb(0, 0, 0); /* цвет текста */
+    background-color:  #e8e8e8; /* цвет заднего фона */
+    text-decoration: none;
+    padding: 1% 2.5%; /* отступы до содержимого блока */
+ 
+   
+    cursor: pointer; /* форма курсора */
+   
+    font-weight: 500;
+    
+    text-align: center; /*выравнивание содержимого элемента по центру */
+
+}
+.educ_intro{
+    text-align: center;
+    margin-top:-13% ;
+    background-color:   rgb(39, 39, 39); 
+    border-radius: 25%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid 5px #bcbcbc;
+    
+    
+
+    color: #F0DD9B;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 3em;
+  
+    
+}
+.educ_all_part{
+    background: url('educ.jpg') 50% 0/cover no-repeat;
+
+
+    
+    
+    width: 100%;
+    padding: 10% 0 0 0;
+    border-bottom:solid 5px #bcbcbc ;
+
+}
+.educ_part{
+    
+    width: 100%;
+    margin:10% 0;
+    
+    position: relative;
+  
+    padding:0 0 0 0;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.educ_sq{
+    margin:1% 0 0 0;
+    padding:0;
+    width: 50%;
+    border:solid 5px #bcbcbc;
+    border-radius:25px;
+    color:rgb(39, 39, 39); ;
+    box-shadow: 0 0 30px 10px rgb(0, 0, 0);
+    transition: all 0.2s;
+}
+.educ_sq_text{
+    background-color:   rgb(39, 39, 39); 
+    color:#cecece; ;
+    border-bottom:solid 5px #bcbcbc;
+    min-height: 15vh;
+   
+}
+.educ_sq_middle{
+    display: flex;
+    justify-content: space-between;
+}
+.educ_discrip{
+    padding: 1% 0 3% 3%;
+    margin-top: 3%;
+    font-size: 20px;
+    text-align: left;
+    margin: 10% 0 10% ;
+    background-color:   rgb(39,39,39); 
+    display: inline-block;
+    border-top-right-radius:25px ;
+    border-bottom-right-radius:25px ;
+    color: #F0DD9B; 
+    border-top: solid 2px #BCBCBC;
+    border-right: solid 2px #BCBCBC;
+    border-bottom: solid 2px #BCBCBC;
+    width: 60%;
+}
+.educ_sq:hover{
+    box-shadow: 0 0 50px 10px rgb(0, 0, 0);
+}
+
+.educ_buy{
+    
+    width: 35%;
+    font-size: 20px;
+    background-color: rgb(39,39,39);
+    display: flex;
+    justify-content: left;
+  
+   
+    padding: 2% 1% 2% 3%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top: solid 2px #BCBCBC;
+    border-left: solid 2px #BCBCBC;
+    border-bottom: solid 2px #BCBCBC;
+    margin: 10% 0;
+}
+.educ_buy_h_ones{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    flex-direction: column;
+     
+}
+.educ_buy a{
+    padding:1% 0 0 3%;
+    text-decoration: none;
+    color: #cecece;
+}
+.educ_icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 2%;
+}
+.educ_icons img{
+    width: 90%;
+    background-color: #F0DD9B;
+    border-radius: 10px;
+    padding: 10%;
+}
+
+.educ_sq_bottom_div{
+    border-top:solid 5px #bcbcbc;
+}
+.achievements_intro{
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    padding: 3% 0;
+    color:  #F0DD9B;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 3em;
+    border-bottom:solid 5px #bcbcbc ;
+
+    
+    
+}
+.achievements_intro h1{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;   
+    border: solid 5px #bcbcbc ;
+}
+.achievements_div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.achievements_parts{
+    width:25%;
+    padding: 1% 3% 3% 1%;
+    border-right: 5px solid #bcbcbc;
+    font-size: 18px;
+    min-width: 300px;
+    text-align:justify;
+    
+    
+
+}
+.achievment_1{
+    background-color: rgb(39,39,39);
+    color: #cecece;
+
+}
+.achievment_2{
+    
+
+    color: #cecece;
+    background-color: rgb(69,69,69);
+
+}
+.achievment_3{
+    background-color: rgb(39,39,39);
+    color: #cecece;
+ 
+}
+.achievment_4{
+    background-color: rgb(69,69,69);
+    color: #cecece;
+}
+footer{
+    background-color: #F0DD9B;
+    
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+.footer_icons{
+    border-top: none;
+    padding-top: 0;
+
+
+}
+.footer_icons h3{
+    font-style: italic;
+}
+.footer_icons img{
+  
+    height: 32px;
+    width: 32px;
+    padding: 0;
+    border-radius: 0;
+    
+}
+.footer_buy{
+    padding-bottom: 2%;
+}
+.footer_buy a{
+    font-size:20px;
+    color: rgb(39, 39, 39);
+    width: 30%;
+    font-weight: 500;
+}
+header .container{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    align-items: center;
+    -ms-align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+ 
+    
+}
+header .logo{
+    max-width: 200px;
+    display: block;
+    margin-left: 2%;
+
+}
+.mnu-tp{
+    list-style-type: none;
+}
+.mnu-tp li{
+    display: inline-block;
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 20px;
+    
+    
+   
+}
+.mnu-tp li a{
+    transition: all .4s;
+    display: block;
+    font-weight: 500;
+    color: #222;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-decoration: none;
+  
+}
+.mnu-tp li:hover{
+   
+   border-top:2px solid #BCBCBC;
+   border-bottom:2px solid #BCBCBC;
+}
+.mnu-tp li a:hover{
+    color:rgb(129, 129, 129);
+}
+/* Dropdown Button */
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+  
+    
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    width: 60%;
+    height: 25vh;
+    position: fixed;
+    margin-top: 50vh;
+    display: none;
+    border-radius: 50px;
+ 
+    border: solid 5px #BCBCBC;
+    background-color: rgb(39, 39, 39);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.links_buy_icons{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 2% 0% 2%;
+}
+.icons_pics_center{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+.links_icons_pics{
+    
+    justify-content:  center;
+    display: flex;
+    
+}
+.links_icons_pics img{
+    width: 2vw;
+}
+.links_icons_pics a{
+    background-color: #F0DD9B;
+    border-radius: 15px;
+    padding:  3px 0 0 3px;
+    transition: all 0.2s;
+    height: 45px;
+    width: 45px;
+    box-shadow: 0 0 30px 1px #F0DD9B;
+}
+.links_icons_pics a:hover{
+    background-color: #a5996e;
+   
+}
+/* Links inside the dropdown */
+.links_buy_div{
+    text-align: center;
+    width: 100%;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 2% 3% 2%;
+}
+.links_buy_div a{
+    width: 30%;
+    color: #F0DD9B;
+    font-size: 25px;
+    text-decoration: none;
+    height: 29.5px;
+}
+
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block; box-shadow:0 0 30px 1000px rgba(0, 0, 0, 0.541);}
+
+
+
+
+
+
+
+
+
+body{
+
+    background-color: #BCBCBC;
+    width: 100%;
+}
+
+html, body {width:100%; overflow-x:hidden}

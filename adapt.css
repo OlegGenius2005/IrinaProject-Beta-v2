@@ -1,0 +1,523 @@
+
+@media only screen and (max-width:1500px), only screen and (max-device-width: 1500px){
+    .all-sq_text{
+        font-size: 12px;
+    }
+    .sq_discrip{
+        background-color: rgb(39,39,39);
+        text-align: left;
+        color:#ffffff;
+        padding: 2% 5%;
+        font-size: 15px;
+        min-height: 85vh;
+    }
+    #mntext{
+        font-size: 50px;
+    }
+    .punkts_all{
+        font-size: 25px;
+    }
+    #exact-punkts li{
+        font-size: 20px;
+    }
+    .icons_pics img{
+     padding:  3%;
+    
+    }
+    .educ_buy {
+        
+        font-size: 7px;
+
+    }
+    .educ_discrip{
+        font-size: 15px;
+        padding: 1% 0.5% 3% 3%;
+    }
+    .educ_icons img{
+        height: 22px;
+        width: 22px;
+
+    }
+    .links_buy_div a{
+        font-size:20px;
+
+        
+    }
+    
+}
+@media only screen and (max-width:1100px), only screen and (max-device-width: 1100px){
+    .all-sq_text{
+        font-size: 12px;
+    }
+    .sq_discrip{
+        background-color: rgb(39,39,39);
+        text-align: left;
+        color:#ffffff;
+        padding: 2% 5%;
+        font-size: 15px;
+        min-height: 85vh;
+    }
+    #mntext{
+        font-size: 30px;
+    }
+    #sctext{
+        font-size: 40px;
+    }
+    .punkts_all{
+        font-size: 25px;
+    }
+    #exact-punkts li{
+        font-size: 20px;
+    }
+    .icons_pics img{
+     padding:  3%;
+    
+    }
+    #text{
+        font-size: 40px;
+    }
+    .educ_intro h1{
+        font-size: 50px;
+    }
+    .all-sq{
+        min-width: 40%;
+
+    }
+    .educ_buy {
+        
+        font-size: 5px;
+
+    }
+    .educ_discrip{
+        font-size: 12px;
+        padding: 1% 0.5% 3% 3%;
+        
+    }
+    .educ_icons img{
+        height: 22px;
+        width: 22px;
+
+    }
+    .achievements_parts{
+        width: 50%;
+        border-top: solid 5px #bcbcbc;
+    }
+    .links_buy_div a{
+        font-size:15px;
+
+        
+    }
+}
+@media only screen and (max-width:600px), only screen and (max-device-width: 600px){
+    .container img{
+        width: 30%;
+    }
+    .mnu-tp li{
+        font-size: 15px;
+    }
+    
+    #mntext{
+        font-size: 16px;
+
+    }
+    #sctext{
+        font-size: 20px;
+    }
+    #bl1{
+        box-shadow: none;
+    }
+    .scrollup{
+        font-size: 15px;
+    }
+    .punkts_all{
+        font-size: 12px;
+        min-height: 10vh;
+    }
+    #exact-punkts{
+        
+    }
+    #exact-punkts li {
+    font-size: 12px;
+    
+        
+    
+    
+    }
+    #text{
+        font-size: 20px;
+    }
+    #sq{
+        flex-direction: column;
+    }
+    .all-sq{
+        max-width: 70%;
+    }
+        
+    
+    .all-sq_text{
+        font-size: 10px;
+
+    }
+    .sq_discrip{
+        font-size: 12px;
+    }
+    .sq_discrip li{
+        background:  url(mark.png) no-repeat left top / 20px 20px;
+    }
+    .uslugi_alert{
+        font-size: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .uslugi_alert h3{
+        width: 70%;
+    }
+    .icons_pics img{
+        width: 28px;
+       
+       }
+    .buy_div a{
+        font-size: 15px;
+    }
+    .educ_all_part{
+        background:  url(educ_2.jpg) 50% 0/cover no-repeat;
+    }
+    .educ_intro h1{
+        font-size: 20px;
+        padding: 2%;
+    }
+    .educ_sq{
+        width: 80%;
+        
+    }
+    .educ_discrip{
+        font-size: 12px;
+    }
+    .educ_icons{
+
+    }
+    .educ_buy{
+        font-size: 6px;
+    }
+    .educ_buy_h_ones{
+        width: 80%;
+    }
+    .educ_buy_h_ones a{
+        font-size: 10px;
+    }
+    .achievements_intro{
+        font-size: 20px;
+    }
+    .achievements_parts{
+        min-width: 50%;
+        font-size: 10px;
+        width: 50%;
+        border-top:5px solid #bcbcbc; 
+        min-height: 40vh;
+    }
+    .footer_buy a{
+        font-size: 15px;
+    }
+    .footer_buy img{
+        width: 50%;
+        height: 50%;
+    }
+    .links{
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        width: 100%;
+        padding: 5%;
+    }
+    .links_icons_pics{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .links_buy_icons{
+        flex-direction: column;
+        padding: 3% 2% 3% 2%;
+        text-align: center;
+    }
+    .icons_pics_center{
+        display: flex;
+        justify-content: center;
+      
+    }
+    .links_buy_icons img{
+       width: 5vw;
+        
+    }
+    .icons_pics_center{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .links_icons_pics a{
+        height: 30px;
+        width: 30px;
+        border-radius: 10px;
+    }
+    .links_buy_icons a{
+        padding: 5% ;
+         
+     }
+    .links_buy_div{
+        flex-direction: column;
+        width: 70%;
+    }
+    .links_buy_div a{
+        font-size:15px;
+        width: 70%;
+
+        
+    }
+}
+@media only screen and (max-width:450px), only screen and (max-device-width: 450px){
+    header{
+        position: fixed;
+        z-index: 999;
+    }
+    .container img{
+        width: 20%;
+    }
+    .mnu-tp li{
+        font-size: 10px;
+    }
+    .mnu-tp{
+        font-size: 10px;
+    }
+    #view-1{
+        margin-top: 34.67px;
+        background: url('photo-2.jpg') 50% 0/cover no-repeat;
+    }
+    #main{
+        background: none;
+        padding-top: 30vh;
+        
+        
+    }
+    #photo-1{
+        display: none;
+    }
+    
+    .block{
+        z-index: 0;
+        width: 100%;
+    }
+    #mntext{
+        font-size: 16px;
+
+    }
+    #sctext{
+        font-size: 20px;
+        padding-bottom: 3%;
+    }
+    #bl1{
+        box-shadow: none;
+        background-color: rgba(39, 39, 39, 0.781);
+        width: 100%;
+        max-width: 100%;
+    }
+    .but{
+        display: none;
+    }
+    .scrollup{
+        font-size: 20px;
+    }
+    
+
+    #about_div{
+        padding-bottom:15%;
+    }
+    .punkts_all{
+        font-size: 10px;
+        min-height: 7vh;
+        
+    }
+    .punkts{
+        border-top-left-radius: 15px ;
+        border-bottom-left-radius: 15px ;
+    }
+    #exact-punkts{
+        border-top-right-radius: 15px ;
+        border-bottom-right-radius: 15px ;
+        
+    }
+    #exact-punkts li {
+    font-size: 10px;
+    
+        
+    
+    
+    }
+    #text{
+        font-size: 15px;
+        margin-top: 3%;
+    }
+    #uslugi{
+        border-bottom: 3px solid #bcbcbc;
+    }
+    #sq{
+        flex-direction: column;
+    }
+    .all-sq{
+        max-width: 70%;
+        border:3px solid #bcbcbc;
+    }
+        
+    
+    .all-sq_text{
+        font-size: 8px;
+        min-height: 5vh;
+
+    }
+    .sq_discrip{
+        font-size: 10px;
+        min-height: 10vh;
+    }
+    .sq_discrip li{
+        background:  url(mark.png) no-repeat left top / 15px 15px;
+    }
+    .uslugi_alert{
+        font-size: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .uslugi_alert h3{
+        width: 70%;
+    }
+    .icons_pics img{
+        width: 20px;
+       
+    }
+    .buy_div a{
+        font-size:10px;
+    }
+    .buy_icons{
+        border-top: 2px solid #bcbcbc;
+    }
+    .sq_bottom_div{
+        border-top: 3px solid #bcbcbc;
+    }
+    .educ_all_part{
+        border-bottom: 3px solid #bcbcbc;
+    }
+    .educ_intro{
+        font-size: 10px;
+        padding: 2%;
+        border: 3px solid #bcbcbc;
+    }
+    .educ_sq_text{
+        border-bottom: 3px solid #bcbcbc;
+    }
+    .educ_sq{
+        width: 80%;
+        border: 3px solid #bcbcbc;
+        
+    }
+    .educ_discrip{
+        font-size: 7px;
+        padding-right: 3%;
+    }
+    .educ_buy a{
+        font-size: 8px;
+    }
+    .educ_buy_h_ones{
+        width: 100%;
+    }
+    .educ_h1_3{
+        font-size: 7px;
+    }
+    .educ_icons img{
+        display: none;
+    }
+    .achievements_intro{
+        border-bottom: none;
+    }
+    .achievements_intro h1{
+        font-size: 25px;
+        border: 3px solid #bcbcbc;
+    }
+    .achievements_parts{
+        min-width: 50%;
+        font-size: 10px;
+        width: 50%;
+        border:3px solid #bcbcbc; 
+        min-height: 40vh;
+    }
+    .footer_buy h1{
+        font-size: 10px;
+    }
+    .footer_icons{
+        border-top: none;
+    }
+    .footer_icone img{
+    height: 20px;
+    
+        
+    }
+    .inn{
+        font-size: 10px;
+    }
+    .dropdown-content{
+        border-radius: 30px;
+        border: 2px solid #bcbcbc;
+    }
+    .links{
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        width: 100%;
+        padding: 5%;
+
+    }
+    .links_icons_pics{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .links_buy_icons{
+        flex-direction: column;
+        padding: 3% 2% 3% 2%;
+        text-align: center;
+    }
+    .icons_pics_center{
+        display: flex;
+        justify-content: center;
+      
+    }
+    .links_buy_icons img{
+       width: 5vw;
+        
+    }
+    .icons_pics_center{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .links_icons_pics a{
+        height: 25px;
+        width: 25px;
+        border-radius: 10px;
+        padding:3px 2px 3px 4px;
+    }
+    .links_buy_icons a{
+        
+         
+     }
+    .links_buy_div{
+        flex-direction: column;
+        width: 70%;
+    }
+    .links_buy_div a{
+        font-size:13px;
+        width: 90%;
+
+        
+    }
+}
